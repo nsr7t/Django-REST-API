@@ -1,0 +1,1 @@
+<h1 style="text-align: center">Django REST API</h1>
