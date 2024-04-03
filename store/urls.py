@@ -5,11 +5,13 @@ from . import views
 
 # URLConf
 router = DefaultRouter()
-router.register('products', views.ProductViewSet)
+router.register('products', views.ProductViewSet, basename='products')
 router.register('collections', views.CollectionViewSet)
 router.register('cards', views.CartViewSet)
+router.register('customers', views.CustomerViewSet)
 
 card_router = routers.NestedDefaultRouter(router, 'cards', lookup='card')
 card_router.register('items', views.CartItemViewSet, basename='card-item')
 
 urlpatterns = router.urls + card_router.urls
+
