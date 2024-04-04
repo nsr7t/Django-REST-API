@@ -2,7 +2,7 @@
 
 <h2>Installation Steps:</h2>
 
-<p>◾First, Make a new virtual envirnoment, by running follwing command</p>
+<p>◾First, Make a new virtual envirnoment, by running the follwing commands</p>
 
 ``` 
 pipenv shell
@@ -21,7 +21,7 @@ Using pipenv:
 ```
 pipenv install
 ```
-Using pip
+Using pip:
 ```
 pip install -r requirements.txt
 ```
