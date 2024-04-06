@@ -2,7 +2,7 @@
 
 <h2>Installation Steps:</h2>
 
-<p>◾First, Make a new virtual envirnoment, by running the follwing commands</p>
+<p>◾First, make a new virtual envirnoment, by running the follwing commands</p>
 
 ``` 
 pipenv shell
