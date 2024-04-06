@@ -26,3 +26,19 @@ Using pip:
 pip install -r requirements.txt
 ```
 
+<p>Replace the field below with your MySQL Configurations</p>
+<code>
+
+```
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'storefront2',
+        'HOST': 'localhost',
+        'USER': 'root',
+        'PASSWORD': 'ILoveDjango'
+    }
+}
+```
+
+</code>
