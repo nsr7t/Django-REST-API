@@ -16,7 +16,9 @@ class ProductViewSet(ModelViewSet):
     serializer_class = ProductSerializer
     permission_classes = [IsAdminOrReadOnly]
     filter_backends = [OrderingFilter, SearchFilter]
-    # order_filter = 
+    ordering_fields = ['title', 'unit_price'] 
+    search_fields = ['title', 'unit_price']
+    
     
     def get_serializer_context(self):
         return {'request': self.request}
