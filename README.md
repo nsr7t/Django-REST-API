@@ -26,8 +26,7 @@ Using pip:
 pip install -r requirements.txt
 ```
 
-<p>Replace the field below with your MySQL Configurations</p>
-<code>
+<p>◾Replace the field below with your MySQL Configurations</p>
 
 ```
 DATABASES = {
@@ -41,4 +40,14 @@ DATABASES = {
 }
 ```
 
-</code>
+<p>◾Create a superuser and generate an access token to access the endpoint using the commands below.</p>
+
+To create a super user:
+```
+python manage.py make createsuperuser
+
+```
+
+<p>◾To Generate an access token go to /auth/jwt/create and enter your username and password to get a token.</p>
+
+
