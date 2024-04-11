@@ -40,6 +40,8 @@ DATABASES = {
 }
 ```
 
+<p>◾The API doesn't have any data you can add the data and try it yourself.</p>
+
 <p>◾Create a superuser and generate an access token to access the endpoint using the commands below.</p>
 
 To create a super user:
